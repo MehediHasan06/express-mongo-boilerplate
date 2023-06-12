@@ -12,7 +12,7 @@ async function main() {
       console.log(`MongoDB atlas is connected on port ${port}...`);
     });
   } catch (error) {
-    console.log("Failed to connect",error);
+    console.log('Failed to connect', error);
   }
 }
 main();
