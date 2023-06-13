@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-#yarn lint-staged;
-# This is checking the node_modules as part of the lint:check, which it should not.
+yarn lint-staged
+
